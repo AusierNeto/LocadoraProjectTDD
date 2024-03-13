@@ -15,9 +15,4 @@ public class Regular extends Movie {
 		return thisAmount;
 	}
 
-	@Override
-	int getFrequentRenterPoints(int daysRented) {
-		return 1;
-	}
-	
 }
